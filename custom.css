@@ -19,7 +19,7 @@
 
 /* Header and containers */
 header, .container-fluid {
-    padding: 0 !important; /* Overrides other padding settings */
+    padding: .2 !important; /* Overrides other padding settings */
     margin: 0 !important; /* Ensures no extra space around header and containers */
 }
 
@@ -27,3 +27,9 @@ header, .container-fluid {
 .bg-dark {
     background-color: rgba(0, 0, 0, 0.2); /* Light black for backgrounds, adjust opacity as needed */
 }
+
+
+#mainNav {
+    opacity: 98%; /* Adjust this value for desired translucency */
+  }
+  
